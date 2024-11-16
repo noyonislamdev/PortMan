@@ -1,0 +1,107 @@
+
+:root {
+    --title: #222;
+    --body: #FFF;
+    --gray: #7D7D7D;
+    --f6: #f6f6f6;
+    --dc: #DCE1F5;
+    --53: #535353;
+    --ba: #BABABA;
+    --fa: #fafafa;
+    --f9: #f9f9f9;
+    --white: #fff;
+    --blue: #6F4FF3;
+    --pink: #EF2E73;
+    --yellow: #FFA722;
+    --nblue: #18254F;
+    --light-blue: #FFA722;
+    --green: #7DBE48;
+    --red: #FF3636;
+    --footer: #00001B;
+    --box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.06);
+    --shadow-2: 0 6px 35px rgba(215,216,222,0.3);
+    --shadow-3: 0 10px 50px 0 rgba(26,46,85,.07);
+    --Y5: translateY(-5px);
+}
+
+
+
+body {
+	background: #FFF;
+}
+img {
+    max-width: 100%;
+}
+a {
+	font-family: Urbanist;
+	text-decoration: none;
+}
+dl, ol, ul {
+	margin: 0;
+}
+li {
+	list-style: none;
+}
+p {
+	font-family: Urbanist;
+}
+h1,h2, h3, h4, h5, h6{
+    margin: 0;
+	font-family: "Poppins", sans-serif;
+}
+.color_blue {
+    color: #6F4FF3;
+}
+.boder_text {
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #000;
+    font-family: Urbanist;
+    font-size: 86px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+/* Start Header */
+#header-area {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.header_logo img {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+ul.main_menu {
+    display: inline-block;
+    float: inline-end;
+}
+.main_menu li {
+    display: inline-block;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.main_menu a {
+    color: #222;
+    font-size: 14px;
+    font-weight: 700;
+}
+.border_btn {
+    padding: 15px 50px;
+    border-radius: 30px;
+    border: 1px solid #7D5FF9;
+    color: #7D5FF9;
+    font-weight: 700;
+    display: block;
+    float: right;
+}
+/* End Header */
+
+/* Start Home */
+
+
+/* End Home */

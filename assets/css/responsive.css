@@ -1,0 +1,259 @@
+@media (max-width: px) {
+	
+}
+
+
+@media (max-width: 1024px) {
+    .filter-btn {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+	.home_area h1 {
+		width: 725px;
+	}
+
+
+	
+}
+
+
+/* Tablet Devices */
+@media only screen and (max-width: 992px) {
+	.hero-section-text .big-title h3{
+		font-size: 18px !important;
+	}
+	.hero-section-text .big-title h1{
+		font-size: 60px !important;
+	}
+	.hero_title_area h1 {
+		font-size: 50px !important;
+	}
+	.hero_title_area h1 i {
+		font-size: 50px !important;
+	}
+	.feature-card {
+		margin-bottom: 30px;
+	}
+	.about-us-button {
+		margin-bottom: 50px;
+		margin-top: 30px;
+	}
+	.about_video {
+		left: 40% !important;
+	}
+	.service-card-title h5 {
+		font-size: 18px !important;
+	}
+	.section-title h1 {
+		font-size: 30px !important;
+	}
+	.solution-bg {
+		margin-bottom: 100px;
+	}
+	.portfolio-card {
+		margin-bottom: 30px;
+	}
+	#about-us .section-title {
+		padding: 0 !important;
+	}
+	.hero_img img {
+		margin-top: 70px !important;
+	}
+	.patner_area img {
+		width: 88px;
+	}
+	.patner_area li {
+		margin: auto 25px !important;
+	}
+	.works_img img {
+		margin-left: 120px !important;
+	}
+	.works_content {
+		padding-left: 100px;
+	}
+	.about_title h2 {
+		width: 366px !important;
+	}
+	.section_title p {
+		width: 62% !important;
+	.owl-carousel .owl-item img {
+		width: 70% !important;
+		margin: 0 auto !important;
+	}
+	.owl-carousel .overlay {
+		width: 70% !important;
+		border-radius: 20px !important;
+		margin: 0 auto !important;
+	}
+	.about_title p {
+		width: 350px !important;
+	}
+	.about_img_mt_mr img {
+		margin: 90px 0 0 15px !important;
+	}
+
+
+}
+
+@media only screen and (min-width: 768px){
+	.patner_area li {
+		padding-right: 40px !important;
+	}
+	.patner_area li {
+		padding-right: 15px !important;
+	}
+	.hero_title_area h1 {
+		font-size: 40px !important;
+	}
+	.hero_title_area h1 i {
+		font-size: 40px !important;
+	}
+	.hero_title_area p {
+		font-size: 14px !important;
+	}
+	.works_content {
+		padding-left: 100px;
+	}
+	.home_area h1 {
+		width: 690px !important;
+	}
+	.home_area i {
+		width: 690px !important;
+	}
+	.portfolio_title h2 {
+		font-size: 32px !important;
+	}
+	.portfolio_title p {
+		width: 585px !important;
+		font-size: 14px !important;
+	}
+	.overlay_edit h3 {
+		margin-right: 10px !important;
+	}
+	.overlay_edit p {
+		margin-right: 10px !important;
+	}
+	.overlay_edit i {
+		margin-right: 10px !important;
+	}
+	.overlay_edit_2 h3 {
+		text-align: center;
+	}
+	.overlay_edit_2 p {
+		text-align: center;
+	}
+	.overlay_edit_2 i {
+		text-align: center;
+	}
+	.single_contact_img {
+		margin: 0 auto;
+	}
+	.single_contact_img_2 {
+		margin: 0 auto;
+	}
+
+
+}
+
+@media only screen and (max-width: 360px) {
+	.works_content {
+		padding-left: 0px;
+	}
+	.hero_title_area h1 {
+		font-size: 42px !important;
+	}
+	.patner_area {
+		height: 450px !important;
+		padding-left: 25px;
+	}
+	.works_img img {
+		margin-left: 65px !important;
+	}
+	.works_content h2 {
+		font-size: 24px !important;
+	}
+	.single_works p {
+		width: 245px !important;
+	}
+	.works_content {
+		padding-left: 30px !important;
+	}
+	.section_title h2 {
+		font-size: 24px !important;
+	}
+	.section_title p {
+		width: 98% !important;
+	}
+	.about_title h2 {
+		font-size: 32px !important;
+	}
+	.footer_title h2 {
+		width: 100% !important;
+		font-size: 32px !important;
+	}
+	.home_area h1 {
+		width: 302px !important;
+		font-size: 32px !important;
+	}
+	.home_area i {
+		font-size: 32px !important;
+	}
+	.portfolio_title h2 {
+		font-size: 32px !important;
+	}
+	.portfolio_title p {
+		width: 305px !important;
+		font-size: 14px !important;
+	}
+	.overlay_edit h3 {
+		margin-right: 10px !important;
+	}
+	.overlay_edit p {
+		margin-right: 10px !important;
+	}
+	.overlay_edit i {
+		margin-right: 10px !important;
+	}
+	.single_contact_img {
+		width: 330px !important;
+		border-radius: 30px;
+	}
+	.contact_title h1 {
+		font-size: 32px !important;
+	}
+	.contact_title i {
+		font-size: 32px !important;
+	}
+	.single_contact_img_2 {
+		width: 330px !important;
+		border-radius: 30px;
+	}
+	.single_contact_img {
+		margin: 0 auto;
+	}
+	.single_contact_img_2 {
+		margin: 0 auto;
+	}
+	.single_contact_box {
+		width: 335px !important;
+		height: 630px !important;
+		margin: 0 auto;
+	}
+	.single_contact_box {
+		padding: 50px 25px !important;
+	}
+	input#name {
+		width: 280px !important;
+	}
+	input#email {
+		width: 280px !important;
+	}
+	input#number {
+		width: 280px !important;
+	}
+	.budget_input, .budget_select {
+		width: 148px !important;
+	}
+
+}
+
