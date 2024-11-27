@@ -17,6 +17,7 @@
     --light-blue: #FFA722;
     --green: #7DBE48;
     --red: #FF3636;
+    --p: #7D7D7D;
     --footer: #00001B;
     --box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.06);
     --shadow-2: 0 6px 35px rgba(215,216,222,0.3);
@@ -28,6 +29,7 @@
 
 body {
 	background: #FFF;
+    font-family: Urbanist;
 }
 img {
     max-width: 100%;
@@ -36,35 +38,37 @@ a {
 	font-family: Urbanist;
 	text-decoration: none;
 }
-dl, ol, ul {
+dl, ol {
 	margin: 0;
+}
+ul {
+    padding: 0;
 }
 li {
 	list-style: none;
 }
 p {
 	font-family: Urbanist;
+    margin-bottom: 0;
 }
 h1,h2, h3, h4, h5, h6{
     margin: 0;
-	font-family: "Poppins", sans-serif;
+	font-family: Urbanist;
 }
 .color_blue {
     color: #6F4FF3;
 }
 .boder_text {
-    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000;
     font-family: Urbanist;
-    font-size: 86px;
+    font-size: 67px;
+    font-style: normal;
     font-weight: 700;
+    line-height: normal;
+    color: #fff;
+    font-family: Urbanist;
 }
-
-
-
-
-
-
 
 /* Start Header */
 #header-area {
@@ -102,6 +106,11 @@ ul.main_menu {
 /* End Header */
 
 /* Start Home */
-
+.home_content h1 {
+    font-size: 67px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 
 /* End Home */
