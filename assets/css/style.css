@@ -196,11 +196,25 @@ ul.banner_social_link {
 #counter {
     color: #FFF;
     background: rgba(0, 0, 0, 1);
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
-.single_counting h2 {
-    color: #FFF;
-    font-size: 100px;
+.counter-value {
+    font-size: 77px;
     font-weight: 700;
+    margin-right: 15px;
+    float: left;
+    display: block;
 }
-
+.single_counting i {
+    font-size: 25px;
+    color: #7D5FF9;
+    padding-top: 15px;
+}
+.single_counting p {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 5px;
+}
 /* End Counter */
