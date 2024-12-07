@@ -109,28 +109,28 @@ ul.main_menu {
 #home {
     background: #F4F4F4;
 }
-.home_content {
+.bannaer_content {
     padding-top: 100px;
 }
-span.home_sub_title {
+span.bannaer_sub_title {
     color: #222;
     font-size: 24px;
     font-weight: 400;
 }
-.home_content h1 {
+.bannaer_content h1 {
     font-size: 67px;
     font-weight: 700;
     line-height: normal;
     padding-top: 20px;
 }
-.home_content p {
+.bannaer_content p {
     color: #7D7D7D;
     font-size: 16px;
     font-weight: 400;
     padding-top: 20px;
     padding-bottom: 50px;
 }
-.home_btn a {
+.bannaer_btn a {
     border-radius: 30px;
     background: #7D5FF9;
     padding: 18px 40px;
@@ -160,14 +160,14 @@ a.video_play {
     color: #7D5FF9;
     font-size: 30px;
 }
-.home_btn span {
+.bannaer_btn span {
     font-size: 16px;
     font-weight: 500;
     line-height: 18px;
     display: inline-grid;
     transform: translateY(-35%);
 }
-.home_img img {
+.bannaer_img img {
     margin-top: 50px;
     margin-bottom: -140px;
 }
@@ -206,12 +206,12 @@ ul.banner_social_link {
     float: left;
     display: block;
 }
-.single_counting i {
+.single_counter i {
     font-size: 25px;
     color: #7D5FF9;
     padding-top: 15px;
 }
-.single_counting p {
+.single_counter p {
     color: #FFF;
     font-size: 18px;
     font-weight: 500;
