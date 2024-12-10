@@ -125,20 +125,24 @@
         </section>
         <!-- End Counter -->
 
-        <!-- Start Services -->
-        <section class="services_area" id="services">
+        <!-- Start Service -->
+        <section class="service_area" id="service">
             <div class="container">
                 <div class="section_title">
                     <div class="row">
-                        
+
                         <div class="col-xl-9 col-lg-6">
-                            <h2>Solution we provide.</h2>
-                            <span>Solution we provide.</span>
-                            <p>The combination of my passion for design, code & interaction web design world.</p>
+                            <div class="section_title_content">
+                                <span class="boder_text">Solution we provide.</span>
+                                <h2>Solution<br> we provide.</h2>
+                                <p>The combination of my passion for design, code & interaction<br> web design world.</p>
+                            </div>
                         </div> <!-- Col End -->
 
                         <div class="col-xl-3 col-lg-6">
-                            <a href="#" class="main_btn">All Services<i class="fa-solid fa-arrow-right"></i></a>
+                            <div class="section_title_btn">
+                                <a href="#" class="main_btn">All Services<i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
                         </div><!-- Col End -->
 
                     </div>
@@ -237,39 +241,104 @@
                 <div class="section_title">
                     <div class="row">
                         <div class="col-xl-9 col-lg-6">
-                            <h2>My Latest Works</h2>
-                            <span>My Latest Works</span>
-                            <p>I believe that working hard and  trying to learn every day will make me improve in satisfying my customers.</p>
-                        </div><!-- Col End -->
-
+                            <div class="section_title_content">
+                                <span class="boder_text">My Latest Works</span>
+                                <h2>My Latest Works</h2>
+                                <p>I believe that working hard and  trying to learn every day will<br> make me improve in satisfying my customers.</p>
+                                
+                            </div>
+                        </div> <!-- Col End -->
                         <div class="col-xl-3 col-lg-6">
-                            <a href="#" class="main_btn">All Services<i class="fa-solid fa-arrow-right"></i></a>
+                            <div class="section_title_btn">
+                                <a href="#" class="main_btn">All Services<i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
                         </div><!-- Col End -->
-
                     </div>
                 </div>
+                <!-- Selector for Categories -->
+                <div class="category_selector">
+                    <button class="active" data-category="all">All Projects</button>
+                    <button data-category="branding">Branding</button>
+                    <button data-category="web_design">Web Design</button>
+                    <button data-category="ui_ux">UI/UX</button>
+                    <button data-category="app_dev">App Dev</button>
+                </div>
 
-                <div class=single_portfolio">
-                    <div class="categories">
-                      <button class="category active">All Projects</button>
-                      <button class="category">Branding</button>
-                      <button class="category">Web Design</button>
-                      <button class="category">UI/UX</button>
-                      <button class="category">App Dev</button>
-                    </div>
-                
-                    <div class="portfolio_item">
-                        <img src="" alt="Photo App UI/UX">
-                        <div class="slide_caption">
+                <!-- Image Slider -->
+                <div class="slider_container">
+                    <div class="slider">
+                    <!-- Slide 1 -->
+                    <div class="slide" data-category="ui_ux">
+                        <img
+                        src="assets/img/Portfolio/1.png"
+                        alt="Photo App UI/UX"
+                        class="slide_image"
+                        >
+                        <div class="content">
                         <h3>Photo App UI/UX</h3>
                         <p>Bokeh Network</p>
                         </div>
                     </div>
-                    <div class="portfolio_item">
-                        <img src="" alt="Placeholder">
+
+                    <!-- Slide 2 -->
+                    <div class="slide" data-category="branding">
+                        <img
+                        src="assets/img/Portfolio/1.png"
+                        alt="Branding Project"
+                        class="slide_image"
+                        >
+                        <div class="content">
+                        <h3>Branding Project</h3>
+                        <p>Modern Identity Design</p>
+                        </div>
                     </div>
-                    <div class="portfolio_item">
-                        <img src="" alt="Placeholder">
+
+                    <!-- Slide 3 -->
+                    <div class="slide" data-category="web_design">
+                        <img
+                            src="assets/img/Portfolio/1.png"
+                            alt="Web Design"
+                            class="slide_image"
+                        >
+                        <div class="content">
+                        <h3>Web Design</h3>
+                        <p>Responsive Framework</p>
+                        </div>
+                    </div>
+                    <div class="slide" data-category="web_design">
+                        <img
+                            src="assets/img/Portfolio/1.png"
+                            alt="Web Design"
+                            class="slide_image"
+                        >
+                        <div class="content">
+                        <h3>Web Design</h3>
+                        <p>Responsive Framework</p>
+                        </div>
+                    </div>
+                    <div class="slide" data-category="web_design">
+                        <img
+                            src="assets/img/Portfolio/1.png"
+                            alt="Web Design"
+                            class="slide_image"
+                        >
+                        <div class="content">
+                        <h3>Web Design</h3>
+                        <p>Responsive Framework</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 4 -->
+                    <div class="slide" data-category="app_dev">
+                        <img
+                        src="assets/img/Portfolio/1.png"
+                        alt="App Development"
+                        class="slide_image"
+                        >
+                        <div class="content">
+                        <h3>App Development</h3>
+                        <p>Mobile Application</p>
+                        </div>
                     </div>
                 </div>
             </div>

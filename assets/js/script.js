@@ -47,7 +47,50 @@
 			});
 		});
 	}
-		
+	
+	// JavaScript for Category Selection and Slider Focus
+	const categoryButtons = document.querySelectorAll('.category_selector button');
+	const slides = document.querySelectorAll('.slide');
+
+	// Handle Category Filtering
+	categoryButtons.forEach((button) => {
+	button.addEventListener('click', () => {
+		// Remove 'active' class from all buttons
+		categoryButtons.forEach((btn) => btn.classList.remove('active'));
+		// Add 'active' class to clicked button
+		button.classList.add('active');
+
+		// Get selected category
+		const selectedCategory = button.dataset.category;
+
+		// Show/hide slides based on category
+		slides.forEach((slide) => {
+		const slideCategory = slide.dataset.category;
+		if (selectedCategory === 'all' || slideCategory === selectedCategory) {
+			slide.style.display = 'block';
+		} else {
+			slide.style.display = 'none';
+		}
+		});
+	});
+	});
+
+	// Handle Slide Click Focus
+	slides.forEach((slide) => {
+	slide.addEventListener('click', () => {
+		// Remove focus from all slides
+		slides.forEach((s) => s.classList.remove('focused'));
+		// Add focus to clicked slide
+		slide.classList.add('focused');
+		// Scroll the focused slide into view
+		slide.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+	});
+	});
+
+
+
+
+	
 }(jQuery));
 
 
