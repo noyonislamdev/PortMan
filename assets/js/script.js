@@ -77,15 +77,26 @@
 
 	// Handle Slide Click Focus
 	slides.forEach((slide) => {
-	slide.addEventListener('click', () => {
-		// Remove focus from all slides
-		slides.forEach((s) => s.classList.remove('focused'));
-		// Add focus to clicked slide
-		slide.classList.add('focused');
-		// Scroll the focused slide into view
-		slide.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+		slide.addEventListener('click', () => {
+			// Remove focus from all slides
+			slides.forEach((s) => s.classList.remove('focused'));
+			// Add focus to clicked slide
+			slide.classList.add('focused');
+			// Scroll the focused slide into view
+			slide.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+		});
 	});
+
+	// Animate progress bars
+	document.addEventListener("DOMContentLoaded", () => {
+		const progressBars = document.querySelectorAll(".progress-bar span");
+		progressBars.forEach(bar => {
+			const targetWidth = bar.getAttribute("data-width");
+			bar.style.width = targetWidth;
+		});
 	});
+
+	
 
 
 
