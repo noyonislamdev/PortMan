@@ -70,6 +70,11 @@ h1,h2, h3, h4, h5, h6{
     font-family: Urbanist;
 }
 
+.text_align {
+    text-align: center;
+}
+
+
 /* Start Header */
 #header-area {
     padding-top: 25px;
@@ -81,7 +86,6 @@ h1,h2, h3, h4, h5, h6{
 }
 ul.main_menu {
     display: inline-block;
-    float: inline-end;
 }
 .main_menu li {
     display: inline-block;
@@ -329,37 +333,98 @@ ul.banner_social_link {
 
 /* End Portfolio */
 
+/* Start Resume */
+.timeline h2 {
+    color: #222;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.timeline_item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    position: relative;
+    padding-left: 150px;
+}
+  
+.timeline_item::before {
+    content: "";
+    position: absolute;
+    left: 110px;
+    top: -20px;
+    height: 110px;
+    width: 7px;
+    background-color: #ddd;
+}
+  
+.timeline_item .circle {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    width: 55px;
+    height: 55px;
+    border: 5px solid #7c58ff;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #7c58ff;
+    margin-left: 75px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+.timeline_item .year {
+    position: absolute;
+    left: 0;
+    font-size: 16px;
+    color: #7c58ff;
+    margin-right: 15px;
+    min-width: 80px;
+    font-weight: 700;
+}
+  
+.timeline_item .details {
+    padding: 10px;
+    border-radius: 8px;
+    flex: 1;
+}
+.details h3 {
+    margin: 0;
+    color: #222;
+    font-size: 22px;
+    font-weight: 700;
+}
+.details p {
+    margin: 5px 0 0;
+    color: #7D7D7D;
+    font-size: 16px;
+    font-weight: 400;
+}
+.timeline_item .custom_circle {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    width: 25px;
+    height: 25px;
+    border: 5px solid #E2E2E2;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 91px;
+}
+/* End Resume */
 
 /* Start Skills */
-
+#skills {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 .details_number {
     color: #7D5FF9;
     font-size: 45px;
@@ -414,7 +479,3 @@ ul.banner_social_link {
 
 
 /* End Skills */
-
-
-
-
